@@ -2,18 +2,10 @@
   <div>
     <Navbar />
     <slot />
-
     <Footer />
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
 
 <script>
 import { BButton } from 'bootstrap-vue'

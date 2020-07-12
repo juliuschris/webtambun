@@ -17,48 +17,26 @@
 
                 <div class="col-lg-6">
                   <p class="small">
-                    <b>Kelurahan Jelupang</b> secara administratif termasuk
-                    dalam salah satu dari tujuh kelurahan yang ada di
-                    <b>Kecamatan Serpong Utara</b>. Batas wilayah dengan di
-                    Sebelah Utara Desa Jelupang yaitu Pondok Jagung Timur,
-                    Sebelah Timur berbatasan dengan Parigi Utara, Sebelah
-                    Selatan berbatasan dengan Lengkong Karya dan Sebelah Barat
-                    berbatasan dengan Pondok Jagung. Luas wilayah Kelurahan
-                    tersebut mencakup sebesar 350.000 ha dengan jumlah penduduk
-                    sebanyak 28.279 jiwa yang terdiri dari laki-laki sebanyak
-                    11.753 jiwa dan perempuan sebanyak 12.220 jiwa.
+                    Sebelum adanya pemekaran Desa yang menjadi induk adalah Desa Tambun 
+                    Sukadami kemudian pada Tahun 1978 terjadi pemekaran Desa yaitu menjadi 
+                    2 (dua) Desa yaitu Desa Tambun Suka Dami dan Desa Lambang Jaya dan pada 
+                    tahun 1983 Desa Tambun Suka Dami kembali dipecah menjadi 3 (tiga) Desa 
+                    yaitu Desa Setia Darma Desa Mekar Sari dan Induknya Menjadi Desa Tambun.
                   </p>
 
                   <p>
-                    Kondisi umum wilayah kelurahan ini adalah
-                    <b>didominasi dengan perumahan dan pemukiman</b> sehingga
-                    lahan untuk pertanian dan peternakan sulit dikembangkan,
-                    mengingat
-                    <b
-                      >tidak ada kecukupan wilayah untuk pembangunan sarana yang
-                      mendasar seperti jaringan irigasi dan juga untuk
-                      peternakan</b
-                    >
-                    terdapat kesulitan untuk dikembangkan dikarenakan lahan
-                    semakin terdesak dengan perumahan, sekalipun ada biasanya
-                    masyarakat mencoba untuk melakukan usaha hewan ternak
-                    rumahan namun hasil produksi relatif rendah.
+                    Desa Tambun di tinjau dari pembagian wilayah administrasi termasuk dalam 
+                    wilayah Kecamatan Tambun Selatan Kabupaten Bekasi Propinsi Jawa Barat. Adapun 
+                    jarak dari Desa Tambun ke Kecamatan ± 100 m, jarak ke Kota Kabupaten ± 14 Km, 
+                    jarak ke Ibu Kota Propinsi Jawa Barat ± 120 Km dan jarak dengan Ibu Kota Negara 
+                    Republik Indonesia ± 35 Km. 
                   </p>
 
                   <p>
-                    Kondisi pengembangan kedua sektor tersebut semakin terhambat
-                    dikarenakan
-                    <b
-                      >lahan-lahan non teknis di wilayah tersebut jarang
-                      digarap</b
-                    >
-                    dan lebih cenderung untuk dijual oleh pemilik lahan. Maka
-                    dari itu lahan pertanian dan peternakan jarang ditemui
-                    sehingga
-                    <b>mayoritas mata pencaharian penduduk adalah pedagang</b>.
-                    Rata-rata pendidikan akhir masyarakat kelurahan Jelupang
-                    cukup beragam dari SD, SMP, SMA dan beberapa lulus dengan
-                    predikat sarjana.
+                    Perkembangan penduduk senantiasa ditentukan oleh faktor kelahiran, kematian, 
+                    pindah dan datang. Hal ini dapat berubah dari bulan ke bulan. Adapun jumlah 
+                    penduduk Desa Tambun Kecamatan Tambun Selatan sampai akhir April 2014 tercatat 
+                    19.205 jiwa 
                   </p>
                 </div>
               </div>
@@ -296,11 +274,11 @@
                     </p>
                     <p>
                       <a href="tel:0811889371" class="site-btn"
-                        >Dinas Kesehatan Kabupaten Bekasi <b>0811 889 371</b></a
+                        >Dinas Kesehatan Kabupaten Bekasi <b>NOMER TELEPON</b></a
                       >
                     </p>
                     <p>
-                      <a href="#" class="site-btn sb-c2">Kontak Selengkapnya</a>
+                      <a href="https://pikokabsi.bekasikab.go.id/" class="site-btn sb-c2">Kontak Selengkapnya</a>
                     </p>
                   </div>
                 </div>
@@ -325,7 +303,7 @@ export default {
     CegahCovid
   },
   metaInfo: {
-    title: "Selamat Datang"
+    title: "Desa Tambun"
   },
   data() {
     return {
