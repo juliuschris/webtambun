@@ -93,7 +93,7 @@
                     <g-link to="/blog/hand-sanitizer/">
                       <g-image src="../assets/favicon.png" />
                     </g-link>
-                    <h5>Pembuatan Hand Sanitizer</h5>
+                    <h5>Pembuatan Fasilitas Kesehatan</h5>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -101,7 +101,7 @@
                     <g-link to="/blog/immune-booster/">
                       <g-image src="../assets/favicon.png" />
                     </g-link>
-                    <h5>Pembuatan Immune Booster</h5>
+                    <h5>Pengolahan Tempe dan Tahu</h5>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -109,7 +109,7 @@
                     <g-link to="/blog/hidroponik/">
                       <g-image src="../assets/favicon.png" />
                     </g-link>
-                    <h5>Hidroponik IoT</h5>
+                    <h5>Begitulah...</h5>
                   </div>
                 </div>
               </div>
@@ -296,7 +296,7 @@
                     </p>
                     <p>
                       <a href="tel:0811889371" class="site-btn"
-                        >Dinas Kesehatan Kota Tangsel <b>0811 889 371</b></a
+                        >Dinas Kesehatan Kabupaten Bekasi <b>0811 889 371</b></a
                       >
                     </p>
                     <p>

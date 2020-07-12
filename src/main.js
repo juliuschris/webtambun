@@ -5,7 +5,7 @@ import DefaultLayout from "~/layouts/Default.vue";
 import "~/assets/css/bootstrap.min.css";
 import "~/assets/css/slicknav.min.css";
 import "~/assets/css/style.css";
-// import "~/assets/styles.scss";
+import "~/assets/styles.scss";
 import BootstrapVue from "bootstrap-vue";
 
 import "bootstrap/dist/css/bootstrap.css";
