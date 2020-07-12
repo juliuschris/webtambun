@@ -9,6 +9,22 @@
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.1",
-    "gridsome": "^0.7.0"
-  }
+    "gridsome": "^0.7.0",
+    "vue": "^2.6.11"
+  },
+  "description": "This is the project you get when you run `gridsome create new-project`.",
+  "version": "1.0.0",
+  "main": "gridsome.config.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliuschris/webtambun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliuschris/webtambun/issues"
+  },
+  "homepage": "https://github.com/juliuschris/webtambun#readme"
 }
