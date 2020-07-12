@@ -9,13 +9,19 @@
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.15.0",
     "gridsome": "^0.7.0",
     "vue": "^2.6.11"
   },
   "description": "This is the project you get when you run `gridsome create new-project`.",
   "version": "1.0.0",
   "main": "gridsome.config.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juliuschris/webtambun.git"

@@ -1,15 +1,9 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot/>
+  <div>
+    <Navbar />
+    <slot />
+
+    <Footer />
   </div>
 </template>
 
@@ -21,30 +15,39 @@ query {
 }
 </static-query>
 
-<style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
+<script>
+import { BButton } from 'bootstrap-vue'
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+export default {
+  components: {
+    BButton,
+    Navbar,
+    Footer
+  }
+};
+</script>
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+<style scoped>
+.footer {
+  margin-top: 4em;
+  padding: 30px;
+}
+.margin {
   margin-bottom: 20px;
-  height: 80px;
 }
 
-.nav__link {
-  margin-left: 20px;
+li {
+  text-decoration: none;
+}
+
+.logo {
+  max-width: 70px;
+  padding: 10px;
+}
+p {
+  font-size: 30px;
 }
 </style>
