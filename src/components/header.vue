@@ -7,14 +7,14 @@
     <ul class="main-menu">
       <li><a href="/">Beranda</a></li>
       <li><a href="/kknt">KKN-T IPB</a></li>
-      <li><a href="/profil-tim">Profil Desa</a></li>
+      <li><a href="/profil-desa">Tentang Desa</a></li>
       <li>
         <a href="">Program Kerja</a>
         <ul class="sub-menu">
-          <li><a href="/penyuluhan-new-normal">Penanaman Bibit</a></li>
-          <li><a href="/hand-sanitizer">Pembagian Hand Sanitizer</a></li>
-          <li><a href="/immune-booster">Edukasi Covid-19</a></li>
-          <li><a href="/hidroponik">Olahan Makanan Tempe</a></li>
+          <li><a href="/penanaman-bibit">Penanaman Bibit</a></li>
+          <li><a href="/pembagian-handsanitizer">Pembagian Hand Sanitizer</a></li>
+          <li><a href="/edukasi-covid-burhat-dan-maseco">Edukasi Covid-19</a></li>
+          <li><a href="/olahan-makanan-tempe">Olahan Makanan Tempe</a></li>
         </ul>
       </li>
       <li>
@@ -25,7 +25,7 @@
             Layanan Darurat Covid-19</a>
           </li>
           <li><a href="#">Pedoman New Normal</a></li>
-          <li><a href="#">Lokasi RS Rujukan</a></li>
+          <li><a href="/blog/rs-rujukan">RS Rujukan</a></li>
         </ul>
       </li>
       <li><a href="#">Galeri</a></li>

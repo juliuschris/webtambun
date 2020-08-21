@@ -10,25 +10,22 @@
           <g-link to="/">Beranda</g-link>
         </li>
         <li>
-          <a href="/blog/kkn-t-jelupang">KKN-T IPB</a>
-        </li>
-        <li>
-          <g-link to="/blog/profil-desa">Profil Desa</g-link>
+          <g-link to="/blog/profil-desa">Tentang Desa</g-link>
         </li>
         <li>
           <a href>Program Kerja</a>
           <ul class="sub-menu">
             <li>
-              <g-link to="/blog/penyuluhan">Penanaman Bibit</g-link>
+              <g-link to="/blog/penanaman-bibit">Penanaman Bibit</g-link>
             </li>
             <li>
-              <g-link to="/blog/hand-sanitizer">Pembagian Hand Sanitizer</g-link>
+              <g-link to="/blog/pembagian-handsanitizer">Pembagian Hand Sanitizer</g-link>
             </li>
             <li>
-              <g-link to="/blog/immune-booster">Edukasi Covid-19</g-link>
+              <g-link to="/blog/edukasi-covid-burhat-dan-maseco">Edukasi Covid-19</g-link>
             </li>
             <li>
-              <g-link to="/blog/hidroponik">Olahan Makanan Tempe</g-link>
+              <g-link to="/blog/olahan-makanan-tempe">Olahan Makanan Tempe</g-link>
             </li>
           </ul>
         </li>
@@ -42,7 +39,7 @@
               <a href="#">Pedoman New Normal</a>
             </li>
             <li>
-              <a href="#">Lokasi RS Rujukan</a>
+              <a href="/blog/rs-rujukan">Lokasi RS Rujukan</a>
             </li>
           </ul>
         </li>
@@ -53,7 +50,7 @@
     </header>
     <b-navbar toggleable="lg" type="dark" variant="info" class="d-md-none bg-dark">
       <b-navbar-brand>
-        <g-image src="../assets/favicon.png" alt style="max-width:50px;" />
+        <g-image src="../assets/logo.png" alt style="max-width:50px;" />
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -67,23 +64,23 @@
             <g-link to="/blog/kkn-t-jelupang" class="white">KKN-T IPB</g-link>
           </b-nav-item>
           <b-nav-item>
-            <g-link to="/blog/profil-desa" class="white">Profil Desa</g-link>
+            <g-link to="/blog/profil-desa" class="white">Tentang Desa</g-link>
           </b-nav-item>
         </b-navbar-nav>
 
         <b-navbar-nav>
           <b-nav-item-dropdown text="Program Kerja" right>
             <b-dropdown-item class="sub">
-              <g-link to="/blog/penyuluhan" class="grey">Penyuluhan</g-link>
+              <g-link to="/blog/penanaman-bibit" class="grey">Penanaman Bibit</g-link>
             </b-dropdown-item>
             <b-dropdown-item>
-              <g-link to="/blog/hand-sanitizer" class="grey">Hand Sanitizer</g-link>
+              <g-link to="/blog/edukasi-covid-burhat-dan-maseco" class="grey">Instalasi Kebersihan</g-link>
             </b-dropdown-item>
             <b-dropdown-item>
-              <g-link to="/blog/immune-booster" class="grey">Immune Booster</g-link>
+              <g-link to="/blog/olahan-makanan-tempe" class="grey">Olahan Tempe</g-link>
             </b-dropdown-item>
             <b-dropdown-item>
-              <g-link to="/blog/hidroponik" class="grey">Hidroponik</g-link>
+              <g-link to="/blog/pembagian-handsanitizer" class="grey">Pembagian Hand Sanitizer</g-link>
             </b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
@@ -94,7 +91,7 @@
               href="https://lawancovid19.tangerangselatankota.go.id/lapor"
             >Lapor Gejala Covid-19</b-dropdown-item>
             <b-dropdown-item href="#">Pedoman New Normal</b-dropdown-item>
-            <b-dropdown-item href="#">Lokasi RS Rujukan</b-dropdown-item>
+            <b-dropdown-item href="/blog/rs-rujukan">Lokasi RS Rujukan</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>

@@ -11,7 +11,7 @@
               <div class="row">
                 <div class="col-xs-6">
                   <div class="section-title">
-                    <h2>Profil Wilayah</h2>
+                    <h2>Profil Desa</h2>
                   </div>
                 </div>
                   <p align='justify'><b>
@@ -127,7 +127,7 @@
               <div class="row">
                 <div class="col-lg-3 col-sm-6">
                   <div class="concept-item">
-                    <g-link to="/blog/penyuluhan/">
+                    <g-link to="/blog/penanaman-bibit/">
                       <g-image src="../assets/menanam.jpg" />
                     </g-link>
                     <h5>Penanaman Bibit</h5>
@@ -143,18 +143,18 @@
                 </div>
                 <div class="col-lg-3 col-sm-6">
                   <div class="concept-item">
-                    <g-link to="/blog/immune-booster/">
-                      <g-image src="../assets/favicon.png" />
+                    <g-link to="/blog/olahan-makanan-tempe/">
+                      <g-image src="../assets/masak.jpg" />
                     </g-link>
-                    <h5>Pengolahan Tempe dan Tahu</h5>
+                    <h5>Inovasi Olahan Tempe</h5>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                   <div class="concept-item">
-                    <g-link to="/blog/hidroponik/">
-                      <g-image src="../assets/favicon.png" />
+                    <g-link to="/blog/pembagian-handsanitizer/">
+                      <g-image src="../assets/hand.jpg" />
                     </g-link>
-                    <h5>Begitulah...</h5>
+                    <h5>Pembagian Hand Sanitizer</h5>
                   </div>
                 </div>
               </div>

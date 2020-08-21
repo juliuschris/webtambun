@@ -11,7 +11,7 @@
                 <ul>
                   <li><a href="">Wilayah KKN-T</a></li>
                   <li><a href="">Program Kerja</a></li>
-                  <li><a href="">Profil Desa</a></li>
+                  <li><a href="/blog/profil-desa">Tentang Desa</a></li>
                 </ul>
               </div>
             </div>
@@ -26,7 +26,7 @@
                     >
                   </li>
                   <li><a href="">New Normal</a></li>
-                  <li><a href="">RS Rujukan</a></li>
+                  <li><a href="/blog/rs-rujukan">RS Rujukan</a></li>
                 </ul>
               </div>
             </div>

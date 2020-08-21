@@ -1,6 +1,6 @@
 ---
 title: "Profil Desa"
-date: 2020-07-04T13:11:17.374Z
+date: 2020-08-21
 ---
 ![](/uploads/kantor.jpg)
 
