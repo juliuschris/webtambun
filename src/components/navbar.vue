@@ -2,7 +2,7 @@
   <div>
     <header class="header-section clearfix d-none d-md-block">
       <g-link to="/" class="site-logo">
-        <g-image src="../assets/favicon.png" alt style="max-width:70px;" />
+        <g-image src="../assets/logo.png" alt style="max-width:100px;" />
       </g-link>
 
       <ul class="main-menu">
@@ -13,22 +13,22 @@
           <a href="/blog/kkn-t-jelupang">KKN-T IPB</a>
         </li>
         <li>
-          <g-link to="/blog/profil-tim">Profil Tim</g-link>
+          <g-link to="/blog/profil-desa">Profil Desa</g-link>
         </li>
         <li>
           <a href>Program Kerja</a>
           <ul class="sub-menu">
             <li>
-              <g-link to="/blog/penyuluhan">Penyuluhan</g-link>
+              <g-link to="/blog/penyuluhan">Penanaman Bibit</g-link>
             </li>
             <li>
-              <g-link to="/blog/hand-sanitizer">Hand Sanitizer</g-link>
+              <g-link to="/blog/hand-sanitizer">Pembagian Hand Sanitizer</g-link>
             </li>
             <li>
-              <g-link to="/blog/immune-booster">Immune Booster</g-link>
+              <g-link to="/blog/immune-booster">Edukasi Covid-19</g-link>
             </li>
             <li>
-              <g-link to="/blog/hidroponik">Hidroponik</g-link>
+              <g-link to="/blog/hidroponik">Olahan Makanan Tempe</g-link>
             </li>
           </ul>
         </li>
@@ -36,10 +36,7 @@
           <a href="#">Informasi</a>
           <ul class="sub-menu">
             <li>
-              <a href="#">Layanan Darurat Covid-19</a>
-            </li>
-            <li>
-              <a href="https://lawancovid19.tangerangselatankota.go.id/lapor">Lapor Gejala Covid-19</a>
+              <a href="https://pikokabsi.bekasikab.go.id/">Layanan Darurat Covid-19</a>
             </li>
             <li>
               <a href="#">Pedoman New Normal</a>
@@ -70,7 +67,7 @@
             <g-link to="/blog/kkn-t-jelupang" class="white">KKN-T IPB</g-link>
           </b-nav-item>
           <b-nav-item>
-            <g-link to="/blog/profil-tim" class="white">Profil Tim</g-link>
+            <g-link to="/blog/profil-desa" class="white">Profil Desa</g-link>
           </b-nav-item>
         </b-navbar-nav>
 

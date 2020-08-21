@@ -1,9 +1,9 @@
 <template>
   <div class="home-banner">
     <div class="mx-auto title" style="text-align:center;">
-      <h1 class="white big">Website Resmi Desa Tambun</h1>
+      <h2 class="white big">Website Resmi Desa Tambun</h2>
       <br />
-      <h2 class="white small">KKNT IPB 2020</h2>
+      <h2 class="white small">Kabupaten Bekasi</h2>
     </div>
   </div>
 </template>

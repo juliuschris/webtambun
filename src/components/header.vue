@@ -1,30 +1,28 @@
 <template>
   <div class="header-section clearfix">
     <a href="index.html" class="site-logo">
-      <img src="assets/favicon.png" alt="" />
+      <img src="assets/logo.png" alt="" />
     </a>
 
     <ul class="main-menu">
       <li><a href="/">Beranda</a></li>
       <li><a href="/kknt">KKN-T IPB</a></li>
-      <li><a href="/profil-tim">Profil Tim</a></li>
+      <li><a href="/profil-tim">Profil Desa</a></li>
       <li>
         <a href="">Program Kerja</a>
         <ul class="sub-menu">
-          <li><a href="/penyuluhan-new-normal">Penyuluhan</a></li>
-          <li><a href="/hand-sanitizer">Pembuatan Hand Sanitizer</a></li>
-          <li><a href="/immune-booster">Pembuatan Immune Booster</a></li>
-          <li><a href="/hidroponik">Hidroponik IoT</a></li>
+          <li><a href="/penyuluhan-new-normal">Penanaman Bibit</a></li>
+          <li><a href="/hand-sanitizer">Pembagian Hand Sanitizer</a></li>
+          <li><a href="/immune-booster">Edukasi Covid-19</a></li>
+          <li><a href="/hidroponik">Olahan Makanan Tempe</a></li>
         </ul>
       </li>
       <li>
         <a href="#">Informasi</a>
         <ul class="sub-menu">
-          <li><a href="#">Layanan Darurat Covid-19</a></li>
           <li>
-            <a href="https://lawancovid19.tangerangselatankota.go.id/lapor"
-              >Lapor Gejala Covid-19</a
-            >
+            <a href="https://pikokabsi.bekasikab.go.id/">
+            Layanan Darurat Covid-19</a>
           </li>
           <li><a href="#">Pedoman New Normal</a></li>
           <li><a href="#">Lokasi RS Rujukan</a></li>

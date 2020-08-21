@@ -6,45 +6,117 @@
         <Layout>
           <Hero />
           <!-- Intro section -->
-          <div class="concept-section spad">
-            <div class="container">
+          <div class="how-section spad set-bg">
+            <div class="container text-white">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-xs-6">
                   <div class="section-title">
                     <h2>Profil Wilayah</h2>
                   </div>
                 </div>
-
-                <div class="col-lg-6">
-                  <p class="small">
+                  <p align='justify'><b>
                     Sebelum adanya pemekaran Desa yang menjadi induk adalah Desa Tambun 
                     Sukadami kemudian pada Tahun 1978 terjadi pemekaran Desa yaitu menjadi 
                     2 (dua) Desa yaitu Desa Tambun Suka Dami dan Desa Lambang Jaya dan pada 
                     tahun 1983 Desa Tambun Suka Dami kembali dipecah menjadi 3 (tiga) Desa 
                     yaitu Desa Setia Darma Desa Mekar Sari dan Induknya Menjadi Desa Tambun.
+                    </b>
                   </p>
 
-                  <p>
+                  <p align='justify'><b>
                     Desa Tambun di tinjau dari pembagian wilayah administrasi termasuk dalam 
                     wilayah Kecamatan Tambun Selatan Kabupaten Bekasi Propinsi Jawa Barat. Adapun 
                     jarak dari Desa Tambun ke Kecamatan ± 100 m, jarak ke Kota Kabupaten ± 14 Km, 
                     jarak ke Ibu Kota Propinsi Jawa Barat ± 120 Km dan jarak dengan Ibu Kota Negara 
                     Republik Indonesia ± 35 Km. 
+                    </b>
                   </p>
 
-                  <p>
+                  <p align='justify'><b>
                     Perkembangan penduduk senantiasa ditentukan oleh faktor kelahiran, kematian, 
                     pindah dan datang. Hal ini dapat berubah dari bulan ke bulan. Adapun jumlah 
                     penduduk Desa Tambun Kecamatan Tambun Selatan sampai akhir April 2014 tercatat 
                     19.205 jiwa 
+                    </b>
+                  </p>
+              </div>
+            </div>
+          </div>
+
+          <div v-if="covid !== null">
+            <div class="concept-section spad set-bg">
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-9">
+                    <div class="section-title">
+                      <h2>Pantauan Data Covid-19</h2>
+                      <h1> Nasional </h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-3">
+                    <div class="premium-item">
+                      <h5>Terkonfirmasi</h5>
+                      <div id="konfirm_nasional">
+                        <h1>{{ covid.confirmed.value }}</h1>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <div class="premium-item">
+                      <h5>Sembuh</h5>
+                      <div id="sembuh_nasional">
+                        <h1>{{ covid.recovered.value }}</h1>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="premium-item">
+                      <h5>Meninggal</h5>
+                      <div id="meninggal_nasional">
+                        <h1>{{ covid.deaths.value }}</h1>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <div class="premium-item">
+                      <h5>Terkahir Update:</h5>
+                      <div id="last_update">
+                        <h2>{{ covid.lastUpdate }}</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="how-section spad">
+            <div class="container text-white">
+              <div class="row">
+                  <div class="section-title">
+                    <h2>Peta Sebaran Covid-19</h2>
+                    <h1> Kabupaten Bekasi</h1>
+                  </div>
+                <div class="col-lg-6">
+                  <p>
+                    <iframe 
+                    src="https://www.google.com/maps/d/embed?mid=1H2P_ASpqbQP3MNJf7xPMo7AWEL0z6Fk4" 
+                    width="1200" height="480" align='center'>
+                    </iframe>
                   </p>
                 </div>
               </div>
             </div>
           </div>
+
+
           <!-- How section -->
-          <div class="how-section spad set-bg">
-            <div class="container text-white">
+          <div class="concept-section spad set-bg">
+            <div class="container">
               <div class="row">
                 <div class="col-lg-6">
                   <div class="section-title">
@@ -52,24 +124,19 @@
                   </div>
                 </div>
               </div>
-              <p>
-                Keterangan di sini ya gan.
-              </p>
               <div class="row">
                 <div class="col-lg-3 col-sm-6">
                   <div class="concept-item">
                     <g-link to="/blog/penyuluhan/">
-                      <g-image src="../assets/favicon.png" />
-
-                      <!-- <img src="../assets/img/proker/penyuluhan.jpg" alt="" /> -->
+                      <g-image src="../assets/menanam.jpg" />
                     </g-link>
-                    <h5>Penyuluhan</h5>
+                    <h5>Penanaman Bibit</h5>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                   <div class="concept-item">
                     <g-link to="/blog/hand-sanitizer/">
-                      <g-image src="../assets/favicon.png" />
+                      <g-image src="../assets/instalasi.jpg" />
                     </g-link>
                     <h5>Pembuatan Fasilitas Kesehatan</h5>
                   </div>
@@ -93,17 +160,13 @@
               </div>
             </div>
           </div>
-          <!-- Concept section -->
-          <div class="concept-section spad">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6">
+
+           <div class="how-section spad">
+            <div class="container text-white">
                   <div class="section-title">
                     <h2>Tentang Covid-19</h2>
                   </div>
-                </div>
-                <div class="col-lg-6">
-                  <p>
+                  <p align='justify'>
                     Coronavirus Disease 2019 atau Covid-19 adalah
                     <b
                       >penyakit baru yang dapat menyebabkan gangguan pernapasan
@@ -120,7 +183,7 @@
                     >
                   </p>
 
-                  <p>
+                  <p align='justify'>
                     Covid-19 adalah penyakit baru dan para peneliti masih
                     mempelajari bagaimana cara penularannya. Dari berbagai
                     penelitian,
@@ -138,7 +201,7 @@
                     (biasanya 1 meter).
                   </p>
 
-                  <p>
+                  <p align='justify'>
                     <b
                       >Droplet bisa menempel di pakaian atau benda di sekitar
                       penderita</b
@@ -152,108 +215,17 @@
                     >
                     untuk mencegah penyebaran droplet.
                   </p>
-                </div>
-              </div>
             </div>
           </div>
-
-          <!-- Subscription section -->
-          <CegahCovid />
-          <!-- Premium section end -->
-          <div v-if="covid !== null">
-            <div class="premium-section spad">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <div class="section-title">
-                      <h2>Pantauan Data Covid-19</h2>
-                    </div>
-                  </div>
-                </div>
-
-                <h3><b>Nasional</b></h3>
-                <div class="row">
-                  <div class="col-lg-3">
-                    <div class="premium-item">
-                      <h4>Terkonfirmasi</h4>
-                      <div id="konfirm_nasional">
-                        <h3>{{ covid.confirmed.value }}</h3>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-3">
-                    <div class="premium-item">
-                      <h4>Sembuh</h4>
-                      <div id="sembuh_nasional">
-                        <h3>{{ covid.recovered.value }}</h3>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3">
-                    <div class="premium-item">
-                      <h4>Meninggal</h4>
-                      <div id="meninggal_nasional">
-                        <h3>{{ covid.deaths.value }}</h3>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-3">
-                    <div class="premium-item">
-                      <h4>Terkahir Update:</h4>
-                      <div id="last_update">
-                        <h3>{{ covid.lastUpdate }}</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="how-section spad set-bg">
-            <div class="container container text-white">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="section-title">
-                    <h2>Pelaksanaan New Normal</h2>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum sus-pendisse ultrices gravida. Risus
-                    commodo viverra maecenas accumsan lacus vel facilisis. Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Quis ipsum
-                    sus-pendisse ultrices gravida. Risus commodo viverra
-                    maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Quis ipsum
-                    suspendisse ultrices gravida.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           <!-- concept section -->
           <div class="concept-section spad">
             <div class="container">
               <div class="row">
-                <div class="col-lg-6">
-                  <div class="section-title">
+                <div class="section-title">
                     <h2>Layanan Darurat Covid-19</h2>
                   </div>
-                </div>
                 <div class="col-lg-6">
-                  <p></p>
-                  <h3>Hubungi layanan ini jika:</h3>
-                  <p></p>
                   <ol class="sub-list">
                     <li>Anda mengalami gejala Covid-19</li>
                     <li>
@@ -265,6 +237,9 @@
                       coronavirus
                     </li>
                   </ol>
+                </div>
+                <div class="col-lg-6">
+                  <h3>Hubungi layanan ini jika:</h3>
                   <div class="hs-text">
                     <p>
                       <a href="tel:112" class="site-btn"
@@ -273,8 +248,8 @@
                       >
                     </p>
                     <p>
-                      <a href="tel:0811889371" class="site-btn"
-                        >Dinas Kesehatan Kabupaten Bekasi <b>NOMER TELEPON</b></a
+                      <a href="tel:08111139927" class="site-btn"
+                        >Dinas Kesehatan Kabupaten Bekasi (<b>08111139927</b>)</a
                       >
                     </p>
                     <p>
@@ -325,7 +300,7 @@ p {
 
 .home-banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/favicon.png");
+    url("../assets/kantor.jpg");
   background-size: cover;
   background-position: center;
   height: 500px;

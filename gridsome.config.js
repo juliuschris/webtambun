@@ -5,22 +5,20 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
+  siteName: "Kabupaten Bekasi",
   plugins: [
     {
-      use: '@gridsome/source-filesystem',
+      use: "@gridsome/source-filesystem",
       options: {
-        typeName: 'BlogPost',
-        path: './content/blog/**/*.md',
+        typeName: "BlogPost",
+        path: "./content/blog/**/*.md"
       }
     }
   ],
-
   transformers: {
-    remark: {
-      // global remark options
-    }
+    remark: {}
   },
   templates: {
-    BlogPost: '/blog/:title'
+    BlogPost: "/blog/:title"
   }
-}
+};

@@ -11,7 +11,7 @@
                 <ul>
                   <li><a href="">Wilayah KKN-T</a></li>
                   <li><a href="">Program Kerja</a></li>
-                  <li><a href="">Profil Tim</a></li>
+                  <li><a href="">Profil Desa</a></li>
                 </ul>
               </div>
             </div>
@@ -19,11 +19,10 @@
               <div class="footer-widget">
                 <h2>Informasi</h2>
                 <ul>
-                  <li><a href="">Layanan Darurat</a></li>
                   <li>
                     <a
-                      href="https://lawancovid19.tangerangselatankota.go.id/lapor"
-                      >Lapor</a
+                      href="https://pikokabsi.bekasikab.go.id/"
+                      >Layanan Darurat Covid-19</a
                     >
                   </li>
                   <li><a href="">New Normal</a></li>
@@ -34,7 +33,7 @@
           </div>
         </div>
         <div class="col-xl-6 col-lg-5 order-lg-1">
-          <img src="../assets/favicon.png" alt="" />
+          <img src="../assets/lppm.png" alt="" />
           <div class="copyright">
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;
