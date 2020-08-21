@@ -135,7 +135,7 @@
                 </div>
                 <div class="col-lg-3 col-sm-6">
                   <div class="concept-item">
-                    <g-link to="/blog/hand-sanitizer/">
+                    <g-link to="/blog/edukasi-covid-burhat-dan-maseco/">
                       <g-image src="../assets/instalasi.jpg" />
                     </g-link>
                     <h5>Pembuatan Fasilitas Kesehatan</h5>
