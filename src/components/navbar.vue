@@ -44,7 +44,7 @@
           </ul>
         </li>
         <li>
-          <a href="/News">Kabar Terbaru</a>
+          <a href="/News">Kabar Desa</a>
         </li>
       </ul>
     </header>

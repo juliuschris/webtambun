@@ -6,6 +6,10 @@
 
 module.exports = {
   siteName: "Kabupaten Bekasi",
+  icon: {
+    favicon: './src/my-favicon.png',
+    touchicon: './src/my-touchicon.png'
+  },
   plugins: [
     {
       use: "@gridsome/source-filesystem",
