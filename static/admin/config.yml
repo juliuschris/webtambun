@@ -1,6 +1,6 @@
 backend: 
   name: github
-  repo: rizkysyawal9/WebJelupang
+  repo: juliuschris/webtambun
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
