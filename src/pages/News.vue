@@ -1,14 +1,28 @@
 <template>
   <Layout>
-    <h1>Isi Kabar terbaru terdapat disini</h1>
-    <div v-for="post in $page.allBlogPost.edges" :key="post.id" class="card">
-      <a :href="post.node.path">
-        <h1>{{ post.node.title }}</h1>
-        <p>Posted on {{ post.node.date }}</p>
-      </a>
+    <div class="container">
+      <div v-for="post in $page.allBlogPost.edges" :key="post.node.id">
+        <div
+          v-if="post.node.title!='Profil Desa'"
+        >
+          <a :href="post.node.path">
+            <div class="card">
+              <g-image src="../assets/logo.png" style="max-width: 50px" class="image"></g-image>
+              <div class="flex-item">
+                <h2>{{ post.node.title}}</h2>
+                <p class="sub-text">Diterbitkan {{post.node.date}}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   </Layout>
 </template>
+
+<script>
+export default {};
+</script>
 
 <page-query>
 query{
@@ -25,32 +39,24 @@ query{
 }
 </page-query>
 
-<script>
-export default {
-  metaInfo: {
-    title: "Kabar Terbaru"
-  }
-};
-</script>
-
 <style scoped>
-/* a {
-  text-decoration: none;
-  color: black;
-}
-
-a:visited {
-  text-decoration: none;
-  color: black;
+.sub-text {
+  font-size: 18px;
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 180px;
 }
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-} */
+.flex-item {
+  margin-left: 30px;
+}
+@media screen and (max-width: 420px) {
+  .card {
+    margin: 12px;
+  }
+}
 </style>
