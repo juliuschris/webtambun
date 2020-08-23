@@ -96,20 +96,16 @@
 
           <div class="how-section spad">
             <div class="container text-white">
-              <div class="row">
                   <div class="section-title">
                     <h2>Peta Sebaran Covid-19</h2>
                     <h1> Kabupaten Bekasi</h1>
                   </div>
-                <div class="col-lg-6">
-                  <p>
-                    <iframe 
-                    src="https://www.google.com/maps/d/embed?mid=1H2P_ASpqbQP3MNJf7xPMo7AWEL0z6Fk4" 
-                    width="1200" height="480" align='center'>
-                    </iframe>
-                  </p>
-                </div>
-              </div>
+                  <div style="text-align: center;">
+                  <iframe
+                  src="https://www.google.com/maps/d/embed?mid=1H2P_ASpqbQP3MNJf7xPMo7AWEL0z6Fk4" 
+                  width="1200" height="480">
+                  </iframe>
+                  </div>
             </div>
           </div>
 
@@ -292,6 +288,7 @@ export default {
     });
   }
 };
+
 </script>
 <style scoped>
 p {
@@ -316,4 +313,12 @@ p {
 .fade-enter {
   opacity: 0;
 }
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 </style>
+
