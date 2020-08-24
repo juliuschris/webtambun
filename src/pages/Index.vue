@@ -8,38 +8,31 @@
           <!-- Intro section -->
           <div class="how-section spad set-bg">
             <div class="container text-white">
-              <div class="row">
-                <div class="col-xs-6">
                   <div class="section-title">
                     <h2>Profil Desa</h2>
                   </div>
-                </div>
-                  <p align='justify'><b>
+                  <p align='justify'>
                     Sebelum adanya pemekaran Desa yang menjadi induk adalah Desa Tambun 
                     Sukadami kemudian pada Tahun 1978 terjadi pemekaran Desa yaitu menjadi 
                     2 (dua) Desa yaitu Desa Tambun Suka Dami dan Desa Lambang Jaya dan pada 
                     tahun 1983 Desa Tambun Suka Dami kembali dipecah menjadi 3 (tiga) Desa 
                     yaitu Desa Setia Darma Desa Mekar Sari dan Induknya Menjadi Desa Tambun.
-                    </b>
                   </p>
 
-                  <p align='justify'><b>
+                  <p align='justify'>
                     Desa Tambun di tinjau dari pembagian wilayah administrasi termasuk dalam 
                     wilayah Kecamatan Tambun Selatan Kabupaten Bekasi Propinsi Jawa Barat. Adapun 
                     jarak dari Desa Tambun ke Kecamatan ± 100 m, jarak ke Kota Kabupaten ± 14 Km, 
                     jarak ke Ibu Kota Propinsi Jawa Barat ± 120 Km dan jarak dengan Ibu Kota Negara 
-                    Republik Indonesia ± 35 Km. 
-                    </b>
+                    Republik Indonesia ± 35 Km.                     
                   </p>
 
-                  <p align='justify'><b>
+                  <p align='justify'>
                     Perkembangan penduduk senantiasa ditentukan oleh faktor kelahiran, kematian, 
                     pindah dan datang. Hal ini dapat berubah dari bulan ke bulan. Adapun jumlah 
                     penduduk Desa Tambun Kecamatan Tambun Selatan sampai akhir April 2014 tercatat 
-                    19.205 jiwa 
-                    </b>
+                    19.205 jiwa
                   </p>
-              </div>
             </div>
           </div>
 

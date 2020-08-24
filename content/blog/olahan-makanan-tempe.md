@@ -4,4 +4,4 @@ date: 2020-08-21
 ---
 ![](/uploads/masak.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Kegiatan ini dilaksanakan pada 14 Agustus 2020, bekerja sama dengan ibu-ibu PKK setempat berupa demonstrasi dan simulasi pembuatan nugget tempe. Sebagai salah satu produk yang paling sering dikonsumsi, harapannya program ini dapat meningkatkan informasi dan keterampilan partisipan dalam mengolah bahan baku menjadi produk olahan turunan yang variatif. Selain itu, produk hasil juga dapat dimanfaatkan untuk meningkatkan nilai ekonomi dan potensi Desa Tambun.
