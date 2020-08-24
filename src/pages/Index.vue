@@ -116,10 +116,10 @@
               <div class="row">
                 <div class="col-lg-3 col-sm-6">
                   <div class="concept-item">
-                    <g-link to="/blog/penanaman-bibit/">
+                    <g-link to="/blog/tambunku-hijau/">
                       <g-image src="../assets/menanam.jpg" />
                     </g-link>
-                    <h5>Penanaman Bibit</h5>
+                    <h5>Tambunku Hijau</h5>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">

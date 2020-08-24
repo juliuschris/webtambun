@@ -2,7 +2,10 @@
   <div>
     <header class="header-section clearfix d-none d-md-block">
       <g-link to="/" class="site-logo">
-        <g-image src="../assets/logo.png" alt style="max-width:100px;" />
+        <g-image src="../assets/logo.png" alt style="max-width:80px;" />
+      </g-link>
+      <g-link to="/" class="site-logo">
+        <g-image src="../assets/logokkn.png" alt style="max-width:82px;" />
       </g-link>
 
       <ul class="main-menu">
@@ -16,7 +19,7 @@
           <a href>Program Kerja</a>
           <ul class="sub-menu">
             <li>
-              <g-link to="/blog/penanaman-bibit">Penanaman Bibit</g-link>
+              <g-link to="/blog/tambunku-hijau">Tambunku Hijau</g-link>
             </li>
             <li>
               <g-link to="/blog/pembagian-handsanitizer">Pembagian Hand Sanitizer</g-link>
@@ -71,7 +74,7 @@
         <b-navbar-nav>
           <b-nav-item-dropdown text="Program Kerja" right>
             <b-dropdown-item class="sub">
-              <g-link to="/blog/penanaman-bibit" class="grey">Penanaman Bibit</g-link>
+              <g-link to="/blog/tambunku-hijau" class="grey">Tambunku Hijau</g-link>
             </b-dropdown-item>
             <b-dropdown-item>
               <g-link to="/blog/edukasi-covid-burhat-dan-maseco" class="grey">Instalasi Kebersihan</g-link>
