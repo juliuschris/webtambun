@@ -4,4 +4,4 @@ date: 2020-08-21
 ---
 ![](/uploads/instalasi.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Kegiatan berupa penyuluhan informasi terkait perkembangan COVID-19 dan kebiasaan hidup sehat dalam media digital dan cetak. Informasi yang disampaikan bertujuan mendorong warga desa untuk selalu waspada, mencegah kepanikan warga dengan pemberian informasi yang valid, serta menciptakan kondisi yang produktif di masyarakat. Program ini secara digital telah dirilis pada akun Instagram KKN-T BEKASIKAB03 (@kkntbekasikab03) serta melalui media cetak yang ditempel di Kantor Desa Tambun.
